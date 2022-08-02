@@ -1,0 +1,22 @@
+{
+  "name": "react-native-simple-modal-select",
+  "version": "0.0.1",
+  "description": "A simple and searchable modal selector for react-native",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "modal",
+    "select",
+    "selector",
+    "picker",
+    "menu",
+    "dropdown",
+    "android",
+    "react-component"
+  ],
+  "author": "Franco Ibarra",
+  "license": "MIT"
+}
