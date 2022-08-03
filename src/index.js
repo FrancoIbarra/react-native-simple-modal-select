@@ -67,7 +67,7 @@ const SimpleModalSelect = ({
 
   const handleCancelPress = () => {
     setSearchText('');
-    if (cancelCallback) cancelCallback();
+    cancelCallback();
   };
 
   return (
@@ -94,7 +94,7 @@ const SimpleModalSelect = ({
             keyboardShouldPersistTaps={'always'}
             data={listItems}
             ListEmptyComponent={
-              <Text>{noResultsText || 'No results found.'}</Text>
+              <Text style={ styles.noResultsText }>{noResultsText || 'No results found.'}</Text>
             }
             renderItem={renderItem}
             keyExtractor={(item, index) =>
