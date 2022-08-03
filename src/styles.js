@@ -42,4 +42,8 @@ exports.styles = StyleSheet.create({
 		color: "black",
 		padding : 10
 	},
+	noResultsText : {
+		alignSelf : "center",
+		padding : 10
+	}
 });
