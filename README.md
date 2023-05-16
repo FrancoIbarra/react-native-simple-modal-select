@@ -2,6 +2,9 @@
 
 A simple and searchable modal selector for React Native.
 
+![Demo](demo.gif)
+
+
 ## Props
 
 -   `data - []` required, array of objects that will be passed to the picker, with unique key and label.
