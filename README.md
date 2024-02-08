@@ -4,7 +4,7 @@ A simple and searchable modal selector for React Native.
 
 ![Demo](demo.gif)
 
-#How to install
+# How to install
 
 npm i react-native-simple-modal-select
 
