@@ -35,6 +35,11 @@ const SimpleModalSelect = ({
     search();
   }, [searchText]);
 
+  useEffect(() => {
+    setSearchText("");
+    setListItems(data);
+  }, [data])
+
   //Render flatlist items
   const renderItem = ({item}) =>
     item[`${labelName}`] && item[`${labelName}`] != '' ? (
